@@ -71,33 +71,33 @@ input:focus{outline:none;border-color:#667eea}
 .note{font-size:12px;color:#718096;font-style:italic;margin-top:5px}
 </style></head><body>
 <div class='container'>
-<h1>⚡ Sunset Relay Controller</h1>
+<h1>Sunset Relay Controller</h1>
 <div class='subtitle'>ESP32-C3 Super Mini with Per-Day Scheduling</div>
 <div class='relay-status'>
 <span><strong>Relay Status:</strong> <span id='relayStatus'>Loading...</span></span>
 <div class='relay-indicator' id='relayIndicator'></div>
 </div>
 <div class='section'>
-<h2>📡 WiFi Configuration</h2>
+<h2>WiFi Configuration</h2>
 <label>WiFi SSID</label>
 <input type='text' id='ssid' placeholder='Enter WiFi network name'>
 <label>WiFi Password</label>
 <input type='password' id='password' placeholder='Enter WiFi password'>
 </div>
 <div class='section'>
-<h2>📍 Location</h2>
+<h2>Location</h2>
 <div class='grid'>
 <div><label>Latitude</label><input type='number' step='0.000001' id='lat' placeholder='41.6764'></div>
 <div><label>Longitude</label><input type='number' step='0.000001' id='lng' placeholder='-87.9373'></div>
 </div>
 </div>
 <div class='section'>
-<h2>⏰ Sunset Delay</h2>
+<h2>Sunset Delay</h2>
 <label>Minutes After Sunset to Turn ON</label>
 <input type='number' id='delay' value='0' min='0' max='240'>
 </div>
 <div class='section'>
-<h2>📅 Turn OFF Schedule (Per Day)</h2>
+<h2>Turn OFF Schedule (Per Day)</h2>
 <div class='note'>Set different turn-off times for each day of the week</div>
 <div style='margin-top:15px'>
 <div class='day-schedule'>
